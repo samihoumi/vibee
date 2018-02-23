@@ -1,0 +1,121 @@
+#hero {
+    background-image: url(images/averie-woodard-319832.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+}
+
+#hero > h1 {
+    color:white;
+}
+
+#hero > form {
+    height: max-content;
+}
+
+#hero > form input, #hero > form select {
+    background-color: rgba(255,255,255, 0.8);
+    width: 250px;
+}
+
+
+
+
+.bg-light {
+    background-color: white !important;
+}
+
+.Practitioners {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #100f0f;
+    margin-top: 180px;
+    margin-bottom: 56px;
+}
+
+.Practitioners2 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #100f0f;
+    margin-top: 4px;
+    margin-bottom: 56px;
+}
+
+.Practitioners3 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #100f0f;
+    margin: 0;
+}
+
+.logoimage{
+    width: 150px;
+}
+
+#footer{
+    /* height: 130px; */
+    background-color: antiquewhite;
+}
+
+#icon1, #icon2{
+    height: 55px;
+}
+
+#dl1, #dl2{
+    width: 160px;
+}
+
+.fooElement{
+    margin: 16px 0px;
+}
+
+.text-center {
+    font-family: Montserrat;
+    font-size: 18 px;
+    margin-top : 25px ;
+    margin-top: 16px 0px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #100f0f;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+.flex {
+    display: flex;
+}
+
+.form-newsletter {
+    margin-bottom: 50px;
+}
+
+.form-newsletter input {
+    width: 400px !important;
+    margin-right: 20px;
+}
